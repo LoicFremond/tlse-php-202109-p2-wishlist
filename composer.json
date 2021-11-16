@@ -26,7 +26,7 @@
     },
     "scripts": {
         "start": "php -S localhost:8000 -t public/"
-    }
+    },
      "post-install-cmd": {
      "php artisan clear-compiled",
      "chmod -R 777 public/"
